@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #0e0e0f;
+    accent-color: #ffff;
+    font-family: "Didot";
+    overflow: hidden !important;
+    height: 100%;
+}
+.menu{
+    position: fixed !important;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 5;
+}
+.menu .logo{
+    margin-left: 40px;
+}
+.menu .logo a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 22px;
+}
+.content{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.container{
+    position: relative;
+    width: 560px;
+    height: 380px;
+    margin: 50px 500px 20px 80px;
+}
+.c0 h1{
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 600px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffff;
+    font-weight: lighter;
+}
+.c0 .c0-main{
+    color: #ffff;
+    font-size: 100px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+.container .c-title{
+    position: absolute;
+    left: 40px;
+    bottom: -40px;
+    font-family: 'Didot';
+    font-style: italic;
+    text-transform: none;
+    font-size: 50px;
+}
+.c-title a{
+    color: #ffff;
+    text-decoration: none;
+
+}
+.c1{
+    background: url(/Photos/pexels-edward-eyer-4173679.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    transition: .6s;
+    opacity: .5;
+}
+.c2{
+    background: url(/Photos/pexels-yovan-verma-4857651.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    transition: .6s;
+    opacity: .5;
+}
+.c3{
+    background: url(/Photos/pexels-angelica-reyn-11183986.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    transition: .6s;
+    opacity: .5;
+}
+.c4{
+    background: url(/Photos/C201501-Winter-Travel-Aspen-CO.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    transition: .6s;
+    opacity: .5;
+}
+.c1:hover,
+.c2:hover,
+.c3:hover,
+.c4:hover{
+    transform: scale(1.2);
+    transition: .6s;
+    opacity: 13;
+}
+.container:hover .c-title a{
+    -webkit-text-fill-color: #ffff;
+    -webkit-text-stroke: 2px none;
+    text-decoration: none .5px;
+}
